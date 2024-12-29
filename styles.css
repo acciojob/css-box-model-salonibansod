@@ -1,13 +1,20 @@
-
-.box {
-  width: 300px;
-  padding: 50px;
-  border: 15px solid blue;
-  margin: 20px;
-  background-color: lightblue;
-  color: black;
-  text-align: center;
-  box-sizing: border-box; /* Ensures padding and border are included in the box size */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9; /* Optional background for better visualization */
 }
 
-/* Your CSS Code here. */
+.box {
+  width: 300px; /* Exact width */
+  padding: 50px; /* Padding as specified */
+  border: 15px solid blue; /* Solid blue border */
+  margin: 20px; /* Margin as specified */
+  background-color: lightblue; /* Light blue background color */
+  color: black; /* Text color */
+  text-align: center; /* Centered text */
+  box-sizing: border-box; /* Ensure padding and border are included in the box size */
+}
